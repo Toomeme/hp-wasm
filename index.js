@@ -71,7 +71,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: C:\Users\jtoom\AppData\Local\Temp\tmpi8xj_7il.js
+// include: C:\Users\jtoom\AppData\Local\Temp\tmp6vbzy2_j.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -200,25 +200,25 @@ Module['FS_createPath']("/", "game_data", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/game_data/ASSETS.PAK", "start": 0, "end": 798152}, {"filename": "/game_data/ASSETS.TOC", "start": 798152, "end": 807268}, {"filename": "/game_data/AUDIO.PAK", "start": 807268, "end": 940476}, {"filename": "/game_data/AUDIO.TOC", "start": 940476, "end": 941548}, {"filename": "/game_data/BIG.PAK", "start": 941548, "end": 977612}, {"filename": "/game_data/BIG.TOC", "start": 977612, "end": 978260}, {"filename": "/game_data/BIR.PAK", "start": 978260, "end": 1001524}, {"filename": "/game_data/BIR.TOC", "start": 1001524, "end": 1002580}, {"filename": "/game_data/CHARDB.BIN", "start": 1002580, "end": 1002744}, {"filename": "/game_data/MOO.PAK", "start": 1002744, "end": 1069328}, {"filename": "/game_data/MOO.TOC", "start": 1069328, "end": 1070792}, {"filename": "/game_data/PALMETA.BIN", "start": 1070792, "end": 1070836}, {"filename": "/game_data/ST1.ogg", "start": 1070836, "end": 7017532}, {"filename": "/game_data/WIN.ogg", "start": 7017532, "end": 7408902}, {"filename": "/game_data/map.bin", "start": 7408902, "end": 7775121}, {"filename": "/game_data/menu.bin", "start": 7775121, "end": 7813607}, {"filename": "/game_data/palette_bank.png", "start": 7813607, "end": 7814730}, {"filename": "/game_data/template_meshes.dat", "start": 7814730, "end": 7815242}], "remote_package_size": 7815242});
+    loadPackage({"files": [{"filename": "/game_data/ASSETS.PAK", "start": 0, "end": 812800}, {"filename": "/game_data/ASSETS.TOC", "start": 812800, "end": 822188}, {"filename": "/game_data/AUDIO.PAK", "start": 822188, "end": 960876}, {"filename": "/game_data/AUDIO.TOC", "start": 960876, "end": 961992}, {"filename": "/game_data/BIG.PAK", "start": 961992, "end": 1007756}, {"filename": "/game_data/BIG.TOC", "start": 1007756, "end": 1008472}, {"filename": "/game_data/BIR.PAK", "start": 1008472, "end": 1035380}, {"filename": "/game_data/BIR.TOC", "start": 1035380, "end": 1036504}, {"filename": "/game_data/CHARDB.BIN", "start": 1036504, "end": 1036668}, {"filename": "/game_data/MOO.PAK", "start": 1036668, "end": 1106300}, {"filename": "/game_data/MOO.TOC", "start": 1106300, "end": 1107832}, {"filename": "/game_data/PALMETA.BIN", "start": 1107832, "end": 1107876}, {"filename": "/game_data/ST1.ogg", "start": 1107876, "end": 7054572}, {"filename": "/game_data/WIN.ogg", "start": 7054572, "end": 7445942}, {"filename": "/game_data/map.bin", "start": 7445942, "end": 7812161}, {"filename": "/game_data/menu.bin", "start": 7812161, "end": 7850647}, {"filename": "/game_data/palette_bank.png", "start": 7850647, "end": 7851770}, {"filename": "/game_data/template_meshes.dat", "start": 7851770, "end": 7852282}], "remote_package_size": 7852282});
 
   })();
 
-// end include: C:\Users\jtoom\AppData\Local\Temp\tmpi8xj_7il.js
-// include: C:\Users\jtoom\AppData\Local\Temp\tmpdy73jd9b.js
+// end include: C:\Users\jtoom\AppData\Local\Temp\tmp6vbzy2_j.js
+// include: C:\Users\jtoom\AppData\Local\Temp\tmpbct44v0a.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: C:\Users\jtoom\AppData\Local\Temp\tmpdy73jd9b.js
-// include: C:\Users\jtoom\AppData\Local\Temp\tmp1igodqb_.js
+  // end include: C:\Users\jtoom\AppData\Local\Temp\tmpbct44v0a.js
+// include: C:\Users\jtoom\AppData\Local\Temp\tmp1djv3o8g.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: C:\Users\jtoom\AppData\Local\Temp\tmp1igodqb_.js
+  // end include: C:\Users\jtoom\AppData\Local\Temp\tmp1djv3o8g.js
 
 
 var arguments_ = [];
@@ -10063,59 +10063,61 @@ function checkIncomingModuleAPI() {
   ignoredModuleProp('loadSplitModule');
 }
 var ASM_CONSTS = {
-  155072: () => { if (document.fullscreenElement) return 1; },  
- 155118: () => { return Module.canvas.width; },  
- 155150: () => { return parseInt(Module.canvas.style.width); },  
- 155198: () => { document.exitFullscreen(); },  
- 155225: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
- 155298: () => { if (document.fullscreenElement) return 1; },  
- 155344: () => { return Module.canvas.width; },  
- 155376: () => { return screen.width; },  
- 155401: () => { document.exitFullscreen(); },  
- 155428: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
- 155561: () => { return window.innerWidth; },  
- 155587: () => { return window.innerHeight; },  
- 155614: () => { if (document.fullscreenElement) return 1; },  
- 155660: () => { return Module.canvas.width; },  
- 155692: () => { return parseInt(Module.canvas.style.width); },  
- 155740: () => { if (document.fullscreenElement) return 1; },  
- 155786: () => { return Module.canvas.width; },  
- 155818: () => { return screen.width; },  
- 155843: () => { return window.innerWidth; },  
- 155869: () => { return window.innerHeight; },  
- 155896: () => { if (document.fullscreenElement) return 1; },  
- 155942: () => { return Module.canvas.width; },  
- 155974: () => { return screen.width; },  
- 155999: () => { document.exitFullscreen(); },  
- 156026: () => { if (document.fullscreenElement) return 1; },  
- 156072: () => { return Module.canvas.width; },  
- 156104: () => { return parseInt(Module.canvas.style.width); },  
- 156152: () => { document.exitFullscreen(); },  
- 156179: ($0) => { Module.canvas.style.opacity = $0; },  
- 156217: () => { return screen.width; },  
- 156242: () => { return screen.height; },  
- 156268: () => { return window.screenX; },  
- 156295: () => { return window.screenY; },  
- 156322: () => { return window.devicePixelRatio; },  
- 156358: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
- 156411: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
- 156462: () => { Module.canvas.style.cursor = 'none'; },  
- 156499: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
- 156755: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
- 156806: () => { if (document.fullscreenElement) return 1; },  
- 156852: () => { return window.innerWidth; },  
- 156878: () => { return window.innerHeight; },  
- 156905: () => { if (document.pointerLockElement) return 1; },  
- 156952: ($0, $1, $2, $3, $4) => { if (typeof window === 'undefined' || (window.AudioContext || window.webkitAudioContext) === undefined) { return 0; } if (typeof(window.miniaudio) === 'undefined') { window.miniaudio = { referenceCount: 0 }; window.miniaudio.device_type = {}; window.miniaudio.device_type.playback = $0; window.miniaudio.device_type.capture = $1; window.miniaudio.device_type.duplex = $2; window.miniaudio.device_state = {}; window.miniaudio.device_state.stopped = $3; window.miniaudio.device_state.started = $4; miniaudio.devices = []; miniaudio.track_device = function(device) { for (var iDevice = 0; iDevice < miniaudio.devices.length; ++iDevice) { if (miniaudio.devices[iDevice] == null) { miniaudio.devices[iDevice] = device; return iDevice; } } miniaudio.devices.push(device); return miniaudio.devices.length - 1; }; miniaudio.untrack_device_by_index = function(deviceIndex) { miniaudio.devices[deviceIndex] = null; while (miniaudio.devices.length > 0) { if (miniaudio.devices[miniaudio.devices.length-1] == null) { miniaudio.devices.pop(); } else { break; } } }; miniaudio.untrack_device = function(device) { for (var iDevice = 0; iDevice < miniaudio.devices.length; ++iDevice) { if (miniaudio.devices[iDevice] == device) { return miniaudio.untrack_device_by_index(iDevice); } } }; miniaudio.get_device_by_index = function(deviceIndex) { return miniaudio.devices[deviceIndex]; }; miniaudio.unlock_event_types = (function(){ return ['touchend', 'click']; })(); miniaudio.unlock = function() { for(var i = 0; i < miniaudio.devices.length; ++i) { var device = miniaudio.devices[i]; if (device != null && device.webaudio != null && device.state === window.miniaudio.device_state.started) { device.webaudio.resume().then(() => { Module._ma_device__on_notification_unlocked(device.pDevice); }, (error) => {console.error("Failed to resume audiocontext", error); }); } } miniaudio.unlock_event_types.map(function(event_type) { document.removeEventListener(event_type, miniaudio.unlock, true); }); }; miniaudio.unlock_event_types.map(function(event_type) { document.addEventListener(event_type, miniaudio.unlock, true); }); } window.miniaudio.referenceCount += 1; return 1; },  
- 159110: () => { if (typeof(window.miniaudio) !== 'undefined') { window.miniaudio.referenceCount -= 1; if (window.miniaudio.referenceCount === 0) { delete window.miniaudio; } } },  
- 159274: () => { return (navigator.mediaDevices !== undefined && navigator.mediaDevices.getUserMedia !== undefined); },  
- 159378: () => { try { var temp = new (window.AudioContext || window.webkitAudioContext)(); var sampleRate = temp.sampleRate; temp.close(); return sampleRate; } catch(e) { return 0; } },  
- 159549: ($0, $1, $2, $3, $4, $5) => { var deviceType = $0; var channels = $1; var sampleRate = $2; var bufferSize = $3; var pIntermediaryBuffer = $4; var pDevice = $5; if (typeof(window.miniaudio) === 'undefined') { return -1; } var device = {}; var audioContextOptions = {}; if (deviceType == window.miniaudio.device_type.playback && sampleRate != 0) { audioContextOptions.sampleRate = sampleRate; } device.webaudio = new (window.AudioContext || window.webkitAudioContext)(audioContextOptions); device.webaudio.suspend(); device.state = window.miniaudio.device_state.stopped; var channelCountIn = 0; var channelCountOut = channels; if (deviceType != window.miniaudio.device_type.playback) { channelCountIn = channels; } device.scriptNode = device.webaudio.createScriptProcessor(bufferSize, channelCountIn, channelCountOut); device.scriptNode.onaudioprocess = function(e) { if (device.intermediaryBufferView == null || device.intermediaryBufferView.length == 0) { device.intermediaryBufferView = new Float32Array(Module.HEAPF32.buffer, pIntermediaryBuffer, bufferSize * channels); } if (deviceType == miniaudio.device_type.capture || deviceType == miniaudio.device_type.duplex) { for (var iChannel = 0; iChannel < channels; iChannel += 1) { var inputBuffer = e.inputBuffer.getChannelData(iChannel); var intermediaryBuffer = device.intermediaryBufferView; for (var iFrame = 0; iFrame < bufferSize; iFrame += 1) { intermediaryBuffer[iFrame*channels + iChannel] = inputBuffer[iFrame]; } } _ma_device_process_pcm_frames_capture__webaudio(pDevice, bufferSize, pIntermediaryBuffer); } if (deviceType == miniaudio.device_type.playback || deviceType == miniaudio.device_type.duplex) { _ma_device_process_pcm_frames_playback__webaudio(pDevice, bufferSize, pIntermediaryBuffer); for (var iChannel = 0; iChannel < e.outputBuffer.numberOfChannels; ++iChannel) { var outputBuffer = e.outputBuffer.getChannelData(iChannel); var intermediaryBuffer = device.intermediaryBufferView; for (var iFrame = 0; iFrame < bufferSize; iFrame += 1) { outputBuffer[iFrame] = intermediaryBuffer[iFrame*channels + iChannel]; } } } else { for (var iChannel = 0; iChannel < e.outputBuffer.numberOfChannels; ++iChannel) { e.outputBuffer.getChannelData(iChannel).fill(0.0); } } }; if (deviceType == miniaudio.device_type.capture || deviceType == miniaudio.device_type.duplex) { navigator.mediaDevices.getUserMedia({audio:true, video:false}) .then(function(stream) { device.streamNode = device.webaudio.createMediaStreamSource(stream); device.streamNode.connect(device.scriptNode); device.scriptNode.connect(device.webaudio.destination); }) .catch(function(error) { console.log("Failed to get user media: " + error); }); } if (deviceType == miniaudio.device_type.playback) { device.scriptNode.connect(device.webaudio.destination); } device.pDevice = pDevice; return miniaudio.track_device(device); },  
- 162377: ($0) => { return miniaudio.get_device_by_index($0).webaudio.sampleRate; },  
- 162443: ($0) => { var device = miniaudio.get_device_by_index($0); if (device.scriptNode !== undefined) { device.scriptNode.onaudioprocess = function(e) {}; device.scriptNode.disconnect(); device.scriptNode = undefined; } if (device.streamNode !== undefined) { device.streamNode.disconnect(); device.streamNode = undefined; } device.webaudio.close(); device.webaudio = undefined; device.pDevice = undefined; },  
- 162836: ($0) => { miniaudio.untrack_device_by_index($0); },  
- 162879: ($0) => { var device = miniaudio.get_device_by_index($0); device.webaudio.resume(); device.state = miniaudio.device_state.started; },  
- 163004: ($0) => { var device = miniaudio.get_device_by_index($0); device.webaudio.suspend(); device.state = miniaudio.device_state.stopped; }
+  152272: ($0) => { if (!window._keepaliveRegistered) { window._keepaliveRegistered = true; window._keepaliveInterval = null; window._keepaliveSocketHandle = $0; document.addEventListener('visibilitychange', function() { if (document.hidden) { window._keepaliveInterval = setInterval(function() { try { var handle = window._keepaliveSocketHandle; if (typeof WS != = 'undefined' && WS.sockets && WS.sockets[handle]) { var ws = WS.sockets[handle]; if (ws.readyState == = 1) { ws.send(new Uint8Array([9])); } } } catch (e) {} }, 2000); } else { if (window._keepaliveInterval) { clearInterval(window._keepaliveInterval); window._keepaliveInterval = null; } } }); } },  
+ 152917: () => { if (window._keepaliveInterval) { clearInterval(window._keepaliveInterval); window._keepaliveInterval = null; } },  
+ 153032: () => { if (document.fullscreenElement) return 1; },  
+ 153078: () => { return Module.canvas.width; },  
+ 153110: () => { return parseInt(Module.canvas.style.width); },  
+ 153158: () => { document.exitFullscreen(); },  
+ 153185: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
+ 153258: () => { if (document.fullscreenElement) return 1; },  
+ 153304: () => { return Module.canvas.width; },  
+ 153336: () => { return screen.width; },  
+ 153361: () => { document.exitFullscreen(); },  
+ 153388: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
+ 153521: () => { return window.innerWidth; },  
+ 153547: () => { return window.innerHeight; },  
+ 153574: () => { if (document.fullscreenElement) return 1; },  
+ 153620: () => { return Module.canvas.width; },  
+ 153652: () => { return parseInt(Module.canvas.style.width); },  
+ 153700: () => { if (document.fullscreenElement) return 1; },  
+ 153746: () => { return Module.canvas.width; },  
+ 153778: () => { return screen.width; },  
+ 153803: () => { return window.innerWidth; },  
+ 153829: () => { return window.innerHeight; },  
+ 153856: () => { if (document.fullscreenElement) return 1; },  
+ 153902: () => { return Module.canvas.width; },  
+ 153934: () => { return screen.width; },  
+ 153959: () => { document.exitFullscreen(); },  
+ 153986: () => { if (document.fullscreenElement) return 1; },  
+ 154032: () => { return Module.canvas.width; },  
+ 154064: () => { return parseInt(Module.canvas.style.width); },  
+ 154112: () => { document.exitFullscreen(); },  
+ 154139: ($0) => { Module.canvas.style.opacity = $0; },  
+ 154177: () => { return screen.width; },  
+ 154202: () => { return screen.height; },  
+ 154228: () => { return window.screenX; },  
+ 154255: () => { return window.screenY; },  
+ 154282: () => { return window.devicePixelRatio; },  
+ 154318: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
+ 154371: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
+ 154422: () => { Module.canvas.style.cursor = 'none'; },  
+ 154459: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
+ 154715: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
+ 154766: () => { if (document.fullscreenElement) return 1; },  
+ 154812: () => { return window.innerWidth; },  
+ 154838: () => { return window.innerHeight; },  
+ 154865: () => { if (document.pointerLockElement) return 1; },  
+ 154912: ($0, $1, $2, $3, $4) => { if (typeof window === 'undefined' || (window.AudioContext || window.webkitAudioContext) === undefined) { return 0; } if (typeof(window.miniaudio) === 'undefined') { window.miniaudio = { referenceCount: 0 }; window.miniaudio.device_type = {}; window.miniaudio.device_type.playback = $0; window.miniaudio.device_type.capture = $1; window.miniaudio.device_type.duplex = $2; window.miniaudio.device_state = {}; window.miniaudio.device_state.stopped = $3; window.miniaudio.device_state.started = $4; miniaudio.devices = []; miniaudio.track_device = function(device) { for (var iDevice = 0; iDevice < miniaudio.devices.length; ++iDevice) { if (miniaudio.devices[iDevice] == null) { miniaudio.devices[iDevice] = device; return iDevice; } } miniaudio.devices.push(device); return miniaudio.devices.length - 1; }; miniaudio.untrack_device_by_index = function(deviceIndex) { miniaudio.devices[deviceIndex] = null; while (miniaudio.devices.length > 0) { if (miniaudio.devices[miniaudio.devices.length-1] == null) { miniaudio.devices.pop(); } else { break; } } }; miniaudio.untrack_device = function(device) { for (var iDevice = 0; iDevice < miniaudio.devices.length; ++iDevice) { if (miniaudio.devices[iDevice] == device) { return miniaudio.untrack_device_by_index(iDevice); } } }; miniaudio.get_device_by_index = function(deviceIndex) { return miniaudio.devices[deviceIndex]; }; miniaudio.unlock_event_types = (function(){ return ['touchend', 'click']; })(); miniaudio.unlock = function() { for(var i = 0; i < miniaudio.devices.length; ++i) { var device = miniaudio.devices[i]; if (device != null && device.webaudio != null && device.state === window.miniaudio.device_state.started) { device.webaudio.resume().then(() => { Module._ma_device__on_notification_unlocked(device.pDevice); }, (error) => {console.error("Failed to resume audiocontext", error); }); } } miniaudio.unlock_event_types.map(function(event_type) { document.removeEventListener(event_type, miniaudio.unlock, true); }); }; miniaudio.unlock_event_types.map(function(event_type) { document.addEventListener(event_type, miniaudio.unlock, true); }); } window.miniaudio.referenceCount += 1; return 1; },  
+ 157070: () => { if (typeof(window.miniaudio) !== 'undefined') { window.miniaudio.referenceCount -= 1; if (window.miniaudio.referenceCount === 0) { delete window.miniaudio; } } },  
+ 157234: () => { return (navigator.mediaDevices !== undefined && navigator.mediaDevices.getUserMedia !== undefined); },  
+ 157338: () => { try { var temp = new (window.AudioContext || window.webkitAudioContext)(); var sampleRate = temp.sampleRate; temp.close(); return sampleRate; } catch(e) { return 0; } },  
+ 157509: ($0, $1, $2, $3, $4, $5) => { var deviceType = $0; var channels = $1; var sampleRate = $2; var bufferSize = $3; var pIntermediaryBuffer = $4; var pDevice = $5; if (typeof(window.miniaudio) === 'undefined') { return -1; } var device = {}; var audioContextOptions = {}; if (deviceType == window.miniaudio.device_type.playback && sampleRate != 0) { audioContextOptions.sampleRate = sampleRate; } device.webaudio = new (window.AudioContext || window.webkitAudioContext)(audioContextOptions); device.webaudio.suspend(); device.state = window.miniaudio.device_state.stopped; var channelCountIn = 0; var channelCountOut = channels; if (deviceType != window.miniaudio.device_type.playback) { channelCountIn = channels; } device.scriptNode = device.webaudio.createScriptProcessor(bufferSize, channelCountIn, channelCountOut); device.scriptNode.onaudioprocess = function(e) { if (device.intermediaryBufferView == null || device.intermediaryBufferView.length == 0) { device.intermediaryBufferView = new Float32Array(Module.HEAPF32.buffer, pIntermediaryBuffer, bufferSize * channels); } if (deviceType == miniaudio.device_type.capture || deviceType == miniaudio.device_type.duplex) { for (var iChannel = 0; iChannel < channels; iChannel += 1) { var inputBuffer = e.inputBuffer.getChannelData(iChannel); var intermediaryBuffer = device.intermediaryBufferView; for (var iFrame = 0; iFrame < bufferSize; iFrame += 1) { intermediaryBuffer[iFrame*channels + iChannel] = inputBuffer[iFrame]; } } _ma_device_process_pcm_frames_capture__webaudio(pDevice, bufferSize, pIntermediaryBuffer); } if (deviceType == miniaudio.device_type.playback || deviceType == miniaudio.device_type.duplex) { _ma_device_process_pcm_frames_playback__webaudio(pDevice, bufferSize, pIntermediaryBuffer); for (var iChannel = 0; iChannel < e.outputBuffer.numberOfChannels; ++iChannel) { var outputBuffer = e.outputBuffer.getChannelData(iChannel); var intermediaryBuffer = device.intermediaryBufferView; for (var iFrame = 0; iFrame < bufferSize; iFrame += 1) { outputBuffer[iFrame] = intermediaryBuffer[iFrame*channels + iChannel]; } } } else { for (var iChannel = 0; iChannel < e.outputBuffer.numberOfChannels; ++iChannel) { e.outputBuffer.getChannelData(iChannel).fill(0.0); } } }; if (deviceType == miniaudio.device_type.capture || deviceType == miniaudio.device_type.duplex) { navigator.mediaDevices.getUserMedia({audio:true, video:false}) .then(function(stream) { device.streamNode = device.webaudio.createMediaStreamSource(stream); device.streamNode.connect(device.scriptNode); device.scriptNode.connect(device.webaudio.destination); }) .catch(function(error) { console.log("Failed to get user media: " + error); }); } if (deviceType == miniaudio.device_type.playback) { device.scriptNode.connect(device.webaudio.destination); } device.pDevice = pDevice; return miniaudio.track_device(device); },  
+ 160337: ($0) => { return miniaudio.get_device_by_index($0).webaudio.sampleRate; },  
+ 160403: ($0) => { var device = miniaudio.get_device_by_index($0); if (device.scriptNode !== undefined) { device.scriptNode.onaudioprocess = function(e) {}; device.scriptNode.disconnect(); device.scriptNode = undefined; } if (device.streamNode !== undefined) { device.streamNode.disconnect(); device.streamNode = undefined; } device.webaudio.close(); device.webaudio = undefined; device.pDevice = undefined; },  
+ 160796: ($0) => { miniaudio.untrack_device_by_index($0); },  
+ 160839: ($0) => { var device = miniaudio.get_device_by_index($0); device.webaudio.resume(); device.state = miniaudio.device_state.started; },  
+ 160964: ($0) => { var device = miniaudio.get_device_by_index($0); device.webaudio.suspend(); device.state = miniaudio.device_state.stopped; }
 };
 function GetCanvasIdJs() { var canvasId = "#" + Module.canvas.id; var lengthBytes = lengthBytesUTF8(canvasId) + 1; var stringOnWasmHeap = _malloc(lengthBytes); stringToUTF8(canvasId, stringOnWasmHeap, lengthBytes); return stringOnWasmHeap; }
 
