@@ -28,16 +28,19 @@
          exactly matches the viewport. Raylib's FLAG_WINDOW_RESIZABLE 
          will then detect the true window size and calculate 
          the proper pillarboxing internally. ── */
+    canvas#canvas:fullscreen {
+      width: 100vw;
+      height: 100vh;
+      background: #000;
+    }
+
+    /* Windowed: let the canvas size itself, parent centers via flexbox */
     canvas#canvas {
       display: block;
-      width: 100%;
-      height: 100%;  /* <--- ADD THIS LINE */
-      border: none;
-      outline: none;
       background: #000;
-      cursor: default;
       image-rendering: pixelated;
       image-rendering: -moz-crisp-edges;
+      /* No width/height — JS sets them */
     }
 
     /* ── Minimal loading overlay ── */
@@ -67,12 +70,6 @@
       width: 0%;
       background: #fff;
       transition: width 0.2s ease;
-    }
-
-    /* ── Fullscreen ── */
-    :fullscreen .game-container {
-      width: 100vw;
-      height: 100vh;
     }
   </style>
 </head>
@@ -164,6 +161,44 @@
       Module.setStatus('');
       console.error('Unhandled exception — see console');
     };
+function syncCanvas() {
+  const c = document.getElementById('canvas');
+  const inFs = (document.fullscreenElement === c);
+
+  // Target visual size
+  const w = window.innerWidth;
+  const h = window.innerHeight;
+
+  if (inFs) {
+    // Let the :fullscreen CSS rule own visual sizing
+    c.style.width  = '';
+    c.style.height = '';
+  } else {
+    c.style.width  = w + 'px';
+    c.style.height = h + 'px';
+  }
+
+  // Critical: sync the BACKING BUFFER (drawing surface) to the CSS size.
+  // This is what raylib renders into.
+  if (c.width !== w || c.height !== h) {
+    c.width  = w;
+    c.height = h;
+  }
+}
+
+window.addEventListener('resize', syncCanvas);
+window.addEventListener('load',   syncCanvas);
+
+document.addEventListener('fullscreenchange', () => {
+  // Layout hasn't settled yet — wait one frame, then sync + force a resize
+  // event so raylib's resize callback re-queries the canvas.
+  requestAnimationFrame(() => {
+    syncCanvas();
+    window.dispatchEvent(new Event('resize'));
+  });
+});
+
+syncCanvas();
   </script>
 
   <script async type="text/javascript" src="index.js"></script>
