@@ -71,7 +71,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: C:\Users\jtoom\AppData\Local\Temp\tmpjk2c_s_r.js
+// include: C:\Users\jtoom\AppData\Local\Temp\tmpbqdpjji7.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -179,9 +179,9 @@ Module['FS_createPath']("/", "game_data", true, true);
         Module['FS_createDataFile'](name, null, data, true, true, true);
         Module['removeRunDependency'](`fp ${name}`);
           }
-          Module['removeRunDependency']('datafile_index.data');
+          Module['removeRunDependency']('datafile_xiaogame.data');
       }
-      Module['addRunDependency']('datafile_index.data');
+      Module['addRunDependency']('datafile_xiaogame.data');
 
       if (!Module['preloadResults']) Module['preloadResults'] = {};
 
@@ -200,25 +200,25 @@ Module['FS_createPath']("/", "game_data", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/game_data/ASSETS.PAK", "start": 0, "end": 849304}, {"filename": "/game_data/ASSETS.TOC", "start": 849304, "end": 858964}, {"filename": "/game_data/AUDIO.PAK", "start": 858964, "end": 1418612}, {"filename": "/game_data/AUDIO.TOC", "start": 1418612, "end": 1420168}, {"filename": "/game_data/BIG.PAK", "start": 1420168, "end": 1473664}, {"filename": "/game_data/BIG.TOC", "start": 1473664, "end": 1474380}, {"filename": "/game_data/BIR.PAK", "start": 1474380, "end": 1505240}, {"filename": "/game_data/BIR.TOC", "start": 1505240, "end": 1506364}, {"filename": "/game_data/CHARDB.BIN", "start": 1506364, "end": 1506528}, {"filename": "/game_data/CHARSEL.ogg", "start": 1506528, "end": 7292132}, {"filename": "/game_data/FNT.PAK", "start": 7292132, "end": 7303132}, {"filename": "/game_data/FNT.TOC", "start": 7303132, "end": 7303304}, {"filename": "/game_data/FRAME.PAK", "start": 7303304, "end": 7314432}, {"filename": "/game_data/FRAME.TOC", "start": 7314432, "end": 7314604}, {"filename": "/game_data/LOGO.PAK", "start": 7314604, "end": 7319984}, {"filename": "/game_data/LOGO.TOC", "start": 7319984, "end": 7320088}, {"filename": "/game_data/MOO.PAK", "start": 7320088, "end": 7393812}, {"filename": "/game_data/MOO.TOC", "start": 7393812, "end": 7395276}, {"filename": "/game_data/PALMETA.BIN", "start": 7395276, "end": 7395320}, {"filename": "/game_data/ST1.ogg", "start": 7395320, "end": 13352293}, {"filename": "/game_data/WIN.ogg", "start": 13352293, "end": 13743663}, {"filename": "/game_data/map.bin", "start": 13743663, "end": 14130364}, {"filename": "/game_data/menu.bin", "start": 14130364, "end": 14322529}, {"filename": "/game_data/palette_bank.png", "start": 14322529, "end": 14324500}, {"filename": "/game_data/template_meshes.dat", "start": 14324500, "end": 14325012}], "remote_package_size": 14325012});
+    loadPackage({"files": [{"filename": "/game_data/ASSETS.PAK", "start": 0, "end": 849304}, {"filename": "/game_data/ASSETS.TOC", "start": 849304, "end": 858964}, {"filename": "/game_data/AUDIO.PAK", "start": 858964, "end": 1418612}, {"filename": "/game_data/AUDIO.TOC", "start": 1418612, "end": 1420168}, {"filename": "/game_data/BIG.PAK", "start": 1420168, "end": 1473664}, {"filename": "/game_data/BIG.TOC", "start": 1473664, "end": 1474380}, {"filename": "/game_data/BIR.PAK", "start": 1474380, "end": 1505240}, {"filename": "/game_data/BIR.TOC", "start": 1505240, "end": 1506364}, {"filename": "/game_data/CHARDB.BIN", "start": 1506364, "end": 1506528}, {"filename": "/game_data/CHARSEL.ogg", "start": 1506528, "end": 7292132}, {"filename": "/game_data/FNT.PAK", "start": 7292132, "end": 7303132}, {"filename": "/game_data/FNT.TOC", "start": 7303132, "end": 7303304}, {"filename": "/game_data/FRAME.PAK", "start": 7303304, "end": 7314432}, {"filename": "/game_data/FRAME.TOC", "start": 7314432, "end": 7314604}, {"filename": "/game_data/LOGO.PAK", "start": 7314604, "end": 7319984}, {"filename": "/game_data/LOGO.TOC", "start": 7319984, "end": 7320088}, {"filename": "/game_data/MOO.PAK", "start": 7320088, "end": 7393812}, {"filename": "/game_data/MOO.TOC", "start": 7393812, "end": 7395276}, {"filename": "/game_data/PALMETA.BIN", "start": 7395276, "end": 7395320}, {"filename": "/game_data/ST1.ogg", "start": 7395320, "end": 13315669}, {"filename": "/game_data/WIN.ogg", "start": 13315669, "end": 13707039}, {"filename": "/game_data/map.bin", "start": 13707039, "end": 14093740}, {"filename": "/game_data/menu.bin", "start": 14093740, "end": 14285905}, {"filename": "/game_data/palette_bank.png", "start": 14285905, "end": 14287876}, {"filename": "/game_data/template_meshes.dat", "start": 14287876, "end": 14288388}], "remote_package_size": 14288388});
 
   })();
 
-// end include: C:\Users\jtoom\AppData\Local\Temp\tmpjk2c_s_r.js
-// include: C:\Users\jtoom\AppData\Local\Temp\tmpj6lgj7kx.js
+// end include: C:\Users\jtoom\AppData\Local\Temp\tmpbqdpjji7.js
+// include: C:\Users\jtoom\AppData\Local\Temp\tmpnrp497ql.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: C:\Users\jtoom\AppData\Local\Temp\tmpj6lgj7kx.js
-// include: C:\Users\jtoom\AppData\Local\Temp\tmpnncse6hb.js
+  // end include: C:\Users\jtoom\AppData\Local\Temp\tmpnrp497ql.js
+// include: C:\Users\jtoom\AppData\Local\Temp\tmplyggxrv1.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: C:\Users\jtoom\AppData\Local\Temp\tmpnncse6hb.js
+  // end include: C:\Users\jtoom\AppData\Local\Temp\tmplyggxrv1.js
 
 
 var arguments_ = [];
